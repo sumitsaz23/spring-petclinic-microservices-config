@@ -93,5 +93,5 @@ spring:
       platform: mysql
   jpa:
     hibernate:
-      ddl-auto: create                   # create schema on startup (destructive - for dev only)
+    #  ddl-auto: create                   # create schema on startup (destructive - for dev only)
     defer-datasource-initialization: true
